@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Shreya Bansal — Software Developer',
-  description: 'Shreya Bansal, Software Developer focused on Cloud & DevOps. Get in touch at shreyab2400@gmail.com.',
+  title: 'Smart Expense & Reimbursement Management System',
+  description: 'A web-based application to record, organise, and track expenses, manage reimbursement claims, and generate organised reports.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: 'light',
-  themeColor: '#f7f9fc',
+  themeColor: '#f7faf8',
 }
 
 export default function RootLayout({
