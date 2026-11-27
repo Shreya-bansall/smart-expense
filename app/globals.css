@@ -40,6 +40,8 @@ a { color: inherit; }
 h1 { max-width: 650px; margin: 0; color: #183630; font-size: clamp(44px, 5.4vw, 69px); font-weight: 600; letter-spacing: -.065em; line-height: 1.06; }
 h1 > span:first-child { color: var(--teal); }
 .title-accent { color: var(--teal); }
+.github-status { display: flex; align-items: center; gap: 8px; margin: 17px 0 0; color: var(--teal); font-size: 12px; font-weight: 600; }
+.github-status span { width: 7px; height: 7px; border-radius: 50%; background: var(--teal); }
 .hero-summary { max-width: 500px; margin: 24px 0 24px; color: var(--muted); font-size: 15px; line-height: 1.8; }
 .primary-link { display: inline-flex; align-items: center; gap: 18px; padding: 13px 16px; border-radius: 7px; background: var(--teal); color: #fff; text-decoration: none; font-size: 12px; font-weight: 600; transition: background .2s, transform .2s; }
 .primary-link:hover { background: var(--teal-dark); transform: translateY(-1px); }

@@ -46,6 +46,7 @@ export default function Page() {
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-dot" /> DIGITAL EXPENSE MANAGEMENT</p>
           <h1 id="project-title">Smart Expense <span>&amp;</span><br />Reimbursement<br /><span className="title-accent">Management System</span></h1>
+          <p className="github-status"><span aria-hidden="true" />Now on GitHub</p>
           <p className="hero-summary">A web-based application for recording, organising, and tracking expenses digitally—alongside reimbursement claims and organised reports.</p>
           <a className="primary-link" href="#about">Explore the project <ArrowRight size={16} /></a>
           <div className="availability"><span className="availability-dot" /> Not available yet</div>
